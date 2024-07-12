@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope&display=swap);
+
+body{
+    font-family: Manrope, serif;
+    background: linear-gradient(90deg, #806bb8 0%, #291e33 100%);
+}
+p {
+    color: #a8a3e7;
+    font-size: 1.5em;
+}
+.nav-link{
+    color: rgb(134, 90, 160);
+}
+.navbar-nav .nav-link.active{
+    color:rgb(171, 143, 216) ;
+}
+.navbar-brand img{
+    width: 40px;
+}
+.navbar-toggler{
+    color:rgb(171, 143, 216);
+}
+.card-body{
+    box-shadow: 13px 12px 24px 3px #0e1420;
+}
+.sidebar{
+    color: #a8a3e7;
+    background: linear-gradient(270deg, #7461a8 0%, #1d1127 100%);
+    font-size: 1.2em;
+
+}
+.card{
+    background: linear-gradient(270deg, #7461a8 0%, #1d1127 100%);
+    color: #a8a3e7;
+    
+}
+.card a{
+    text-decoration:none;
+    color: #a8a3e7;
+}
+.slide-text{
+    color: #a8a3e7;
+    margin: auto auto;
+    font-size: 2em;
+    border-style:solid;
+    border-color:#ffffff;
+}
+
+.footer-text{
+    margin: auto auto;
+    color: #a8a3e7;
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: linear-gradient(270deg, #7461a8 0%, #1d1127 100%); 
+}
+
+.btn-outline-primary{
+    background: linear-gradient(270deg, #7461a8 0%, #1d1127 100%);
+    color: #a8a3e7;
+    border-color:#7461a8
+}
+
+.btn-outline-primary:hover{
+    border-color:#ffffff
+}
+
+.call-anim{
+    animation: myAnim 1.5s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
